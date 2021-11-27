@@ -1,0 +1,27 @@
+When to use dictionary/list
+- no order = dictionary
+- order = list
+- need to hold a lot of information = dictionary
+- simple data structure = list
+
+dictionary:
+items, values, keys are iterable
+
+enumerate:
+returns an index value for each item used to iterate over, item must be iterable
+
+*args **kwargs rules:
+params, *args, default params, **kwargs
+
+walrus operator (:=):
+assign values to larger expressions 
+ex: 
+#
+a = "helllllloooo"
+if ((n:= len(a)) > 10):
+    print(f"too long, {n} elements")
+#
+it is used to do calculations inside an if statement or loop
+
+assign multi values to the same value:
+x = y = x = VALUE
